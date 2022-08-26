@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `Nani? (・o・)`
+let info = `Apa su❗ Jemb0t Kobong🔥`
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 const message = {
@@ -19,7 +19,7 @@ const message = {
                 {
                     urlButton: {
                         displayText: '📞 Add me',
-                        url: 'https://wa.me/6289513081384',
+                        url: 'https://wa.me/6287734910547',
                     }
                 },
                 {
