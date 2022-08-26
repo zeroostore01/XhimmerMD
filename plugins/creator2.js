@@ -21,18 +21,18 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Mr. Iqbal
-*✉️ Nama BOT* : Sullivan-MD
+*💌 Nama* : Vinz
+*✉️ Nama BOT* : xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 29 oktober 2002
-*🎨 Umur* : 19
+*⏰ Tanggal lahir* : 15 Maret 2004
+*🎨 Umur* : 18
 *🧮 Kelas* : Ngampus
-*🧩 Hobby* : Bully org sampe meninggal, main game, Recode script
-*💬 Sifat* : Baik, penyabar, santun, tydack toksik, penabung, baik hati, bertutur kata terjaga
-*🗺️ Tinggal* : Indonesia, jawabarat, bandung
-*❤️ Suka* : warnah pink, loli imoet🥺, waifu wangy, kucing, ayank rere🥺
-*💔 Benci* : anak alay, autis, anak epep, sok asik, babi lu
+*🧩 Hobby* : Lebih Baik Lu Gatau
+*💬 Sifat* : Intinya Bukan Orang Yang Baik
+*🗺️ Tinggal* : Indonesia, JawaTengah, Demak
+*❤️ Suka* : warnah pink, loli imoet🥺, waifu wangy, kucing, ayank aca😅
+*💔 Benci* : Orang Yang Membenciku 
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [40.7%]
@@ -49,7 +49,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 🐈 *Github:* ${sgh}
 🥏 *Whatsapp* wa.me/${nomorown}
 🌐 *Discord:* Soon
-🌏 *Website:* https://rizkiiqbalmuladi.wordpress.com/
+🌏 *Website:* Sementara Belum Punya
 🎶 *Tiktok:* ha? benda apa itu?
 
 `
