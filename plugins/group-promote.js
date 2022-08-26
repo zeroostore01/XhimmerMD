@@ -1,23 +1,31 @@
-import { areJidsSameUser } from '@adiwajshing/baileys'
-let handler = async (m, { conn, participants }) => {
-    let users = m.mentionedJid.filter(u => !areJidsSameUser(u, conn.user.id))
-    let promoteUser = []
-    for (let user of users)
-        if (user.endsWith('@s.whatsapp.net') && !(participants.find(v => areJidsSameUser(v.id, user)) || { admin: true }).admin) {
-            const res = await conn.groupParticipantsUpdate(m.chat, [user], 'promote')
-            await delay(1 * 1000)
-        }
-    m.reply('Succes')
-
+let handler = async (m, { teks, conn, isOwner, isAdmin, args }) => {
+	if (!(isAdmin || isOwner)) {
+                global.dfail('admin', m, conn)
+                throw false
+                }
+  let ownerGroup = m.chat.split`-`[0] + "@s.whatsapp.net";
+  if(m.quoted){
+if(m.quoted.sender === ownerGroup || m.quoted.sender === conn.user.jid) return;
+let usr = m.quoted.sender;
+let nenen = await conn.groupParticipantsUpdate(m.chat, [usr], "promote"); return;
+if (nenen) m.reply(`sukses promote @${user.split('@')[0]}!`);
 }
-handler.help = ['promote @tag']
-handler.tags = ['group']
-handler.command = /^(promote)$/i
+  if (!m.mentionedJid[0]) throw `tag yang mau dinaikan jabatannya`;
+  let users = m.mentionedJid.filter(
+    (u) => !(u == ownerGroup || u.includes(conn.user.jid))
+  );
+  for (let user of users)
+    if (user.endsWith("@s.whatsapp.net"))
+      await conn.groupParticipantsUpdate(m.chat, [user], "promote");
+};
 
-handler.admin = true
+handler.help = ['promote @user']
+handler.tags = ['group', 'owner']
+handler.command = /^(promo?te|admin|\^)$/i
+
 handler.group = true
 handler.botAdmin = true
+handler.admin = true
+handler.fail = null
 
 export default handler
-
-const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
