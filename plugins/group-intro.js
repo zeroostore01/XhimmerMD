@@ -14,7 +14,7 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 http://bīt.ly/ᯤ
 `
-conn.fakeReply(m.chat, krtu, '0@s.whatsapp.net', 'Sullivan')
+conn.fakeReply(m.chat, krtu, '0@s.whatsapp.net', 'Vinz')
 }
 handler.command = /^(intro)$/i
 handler.group = true
