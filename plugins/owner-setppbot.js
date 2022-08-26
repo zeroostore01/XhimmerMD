@@ -16,4 +16,4 @@ handler.command = /^setppbot$/i
 
 handler.owner = true
 
-export default handler 
+export default handler
