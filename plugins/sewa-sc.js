@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-let info = `_👋Hallo, Mau beli sc?\n\n╰► *ʙᴏᴛ ʙʏ Mr Iqbal*
+let info = `*MAAF SC TIDAK SAYA PERJUAL BELIKAN❗*'
 `
 
 let td = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -19,14 +19,14 @@ const message = {
                 },
                 {
                     urlButton: {
-                        displayText: '📞 Buy Sc di sini',
-                        url: 'https://wa.me/629513081384',
+                        displayText: 'Save Owner Dong🗿',
+                        url: 'https://wa.me/6287734910547',
                     }
                 },
                 {
                     quickReplyButton: {
                         displayText: '📛 ᴊᴀɴɢᴀɴ ᴅɪ ᴋʟɪᴋ ᴋᴀᴋ',
-                        url: 'https://instagram.com/r_iqbl02'
+                        url: 'https://instagram.com/_alv.stn'
                     }
                 },
                 {
@@ -44,13 +44,13 @@ const message = {
             ]
         }
         conn.sendMessage(m.chat, message)
-await conn.sendButton(m.chat, `Hallo Kak...\n➘\nPastikan anda menyetujui harga yg di berikan\n`,wm + '\n\n' + botdate, giflogo, [['🥞OKE','Ok']], m, {
+await conn.sendButton(m.chat, `Jangan Ngambek\n➘\nKalo Sc nya Ga Dijual❗\n`,wm + '\n\n' + botdate, giflogo, [['🥞OKE','Ok']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
                         title: bottime,
-                        body: 'BOT BY Mr. Iqbal',          previewType: 0,
+                        body: 'BOT BY Vinz',          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
                         sourceUrl: sgc
                       }}
