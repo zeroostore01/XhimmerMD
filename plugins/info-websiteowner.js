@@ -9,7 +9,7 @@ conn.sendMessage(m.chat, {
     index: 1,
     urlButton: {
       displayText: `Link`,
-      url: 'https://rizkiiqbalmuladi.wordpress.com/'
+      url: 'https://github.com/ShionMDv'
     }
   }],
   footer: wm
