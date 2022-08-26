@@ -1,18 +1,31 @@
-import { areJidsSameUser } from '@adiwajshing/baileys'
-let handler = async (m, { conn, participants }) => {
-    let users = m.mentionedJid.filter(u => !areJidsSameUser(u, conn.user.id))
-     let user = m.mentionedJid && m.mentionedJid[0]
-            await conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-        
-    m.reply('Succes')
-
+let handler = async (m, { teks, conn, isOwner, isAdmin, args }) => {
+	if (!(isAdmin || isOwner)) {
+                global.dfail('admin', m, conn)
+                throw false
+                }
+  let ownerGroup = m.chat.split`-`[0] + "@s.whatsapp.net";
+  if(m.quoted){
+if(m.quoted.sender === ownerGroup || m.quoted.sender === conn.user.jid) return;
+let usr = m.quoted.sender;
+let nenen = await conn.groupParticipantsUpdate(m.chat, [usr], "demote"); return;
+if (nenen) m.reply(`sukses demote @${user.split('@')[0]}!`)
 }
-handler.help = ['demote @tag']
-handler.tags = ['group']
-handler.command = /^(demote)$/i
+  if (!m.mentionedJid[0]) throw `tag yang mau diturunkan jabatannya`;
+  let users = m.mentionedJid.filter(
+    (u) => !(u == ownerGroup || u.includes(conn.user.jid))
+  );
+  for (let user of users)
+    if (user.endsWith("@s.whatsapp.net"))
+      await conn.groupParticipantsUpdate(m.chat, [user], "demote");
+};
 
-handler.admin = true
+handler.help = ['demote @user']
+handler.tags = ['group', 'owner']
+handler.command = /^(demo?te|member|\↓)$/i
+
 handler.group = true
 handler.botAdmin = true
+handler.admin = true
+handler.fail = null
 
 export default handler
