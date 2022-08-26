@@ -13,19 +13,19 @@ const message = {
                 {
                     urlButton: {
                         displayText: '🌹IG OWNER',
-                        url: 'https://instagram.com/r_iqbl02/',
+                        url: 'https://instagram.com/_alv.stn',
                     }
                 },
                 {
                     urlButton: {
                         displayText: '📞 Author',
-                        url: 'https://wa.me/6289513081384',
+                        url: 'https://wa.me/6287734910547',
 
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: '🔭OKE',
+                        displayText: '🔥OKE',
                         id: 'Ok'
                     }
                 },
