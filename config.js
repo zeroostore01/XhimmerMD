@@ -29,33 +29,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Kalau gapunya di biarin aja!, atau ga di kasih tanda '-'
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://www.instagram.com/r_iqbl02/' //Instagram mu
-global.sgh = 'https://github.com/RizkiIqbal02' //Github mu
-global.sgc = 'https://chat.whatsapp.com/Bb245eWe2OCJy4TgUpdzQg' //Group WhatsApp mu
-global.sdc = 'https://youtube.com/channel/UCbDTyaAiUTWgoR-y-fH7dbw' //Discord Mu
-global.snh = 'rizkiiqbalmuladi.wordpress.com' //Make ini ana gausah di ganti.
+global.sig = 'https://www.instagram.com/_alv.stn' //Instagram mu
+global.sgh = 'https://github.com/ShionMDv' //Github mu
+global.sgc = 'https://chat.whatsapp.com/KA5pIYwNaAo4gfyWsWFEny' //Group WhatsApp mu
+global.sdc = '----' //Discord Mu
+global.snh = 'https://nhentai.net/g/365296/' //Make ini ana gausah di ganti.
 
 /*⫘⫘⫘⫘ALL PAYMENT⫘⫘⫘⫘⫘*/
-global.pdana = '089513081384' //Dana
-global.povo = '08987012169' //Ovo
-global.pgopay = '089513081384' //Gopay
-global.ppulsa = '089513081384' //Pulsa 
-global.ppulsa2 = '08987012169' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
+global.pdana = '087734910547' //Dana
+global.povo = '----' //Ovo
+global.pgopay = '----' //Gopay
+global.ppulsa = '087734910547' //Pulsa 
+global.ppulsa2 = '085848453523' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
 global.psaweria = 'Unavailable' //Saweria
 
 /*⫘⫘⫘⫘ GLOBAL NOMOR ⫘⫘⫘⫘⫘*/
-global.nomorbot = '62895389149020' //Nomor Bot mu
-global.nomorown = '6289513081384' //Nomormu
-global.namebot = 'Sullivan-MD' //Nama bot mu
-global.nameown = 'Mr.Iqbal' //Nama mu
+global.nomorbot = '6285602806360' //Nomor Bot mu
+global.nomorown = '6287734910547' //Nomormu
+global.namebot = 'xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐' //Nama bot mu
+global.nameown = '𝚅𝙸𝙽𝚉 𝙲𝚈𝚇' //Nama mu
 
 
 /*⫘⫘⫘⫘ STAFF ⫘⫘⫘⫘⫘*/
 global.owner = [
-  ['6289513081384'], //Owner1
-  ['628987012169'], //Owner2
-  ['62895389149020'], //Owner3
-  ['6289513081384', 'Mr.Iqbal ! 🤣', true] //Ini buat kamu!
+  ['6287734910547'], //Owner1
+  ['6285848453523'], //Owner2
+  ['6287734910547'], //Owner3
+  ['6287734910547', '𝚅𝙸𝙽𝚉 𝙲𝚈𝚇 ! 🔥', true] //Ini buat kamu!
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -104,27 +104,27 @@ global.APIKeys = { // APIKey Here
 
 /*⫘⫘⫘⫘ WATERMAK ⫘⫘⫘⫘⫘*/
 //GANTI JANGAN NGASAL.
-global.wm = '                「 赤 Sullivan - MD ⁩இ 」' //Wm
-global.wm2 = '© Sullivan' //Name Wm
-global.wm3 = '赤 Sullivan-MD'
+global.wm = '                「 ≪•◦𝚅𝙸𝙽𝚉 ❈ 𝙲𝚈𝚇◦•≫ 」' //Wm
+global.wm2 = '┏━°⌜ 𝚅𝙸𝙽𝚉 𝙲𝚈𝚇 ⌟°━┓' //Name Wm
+global.wm3 = '⫹⫺ 𝙓𝙃𝙄𝙈𝙈𝙀𝙍 𝘽𝙊𝙏'
 global.botdate = `🗓️️ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = '𝗬𝗧: R Iqbal' //Ganti serah lu
-global.author = '                © Sullivan-MD By Mr.Iqbal' //Wm author
+global.titlebot = 'IG:@_alv.stn' //Ganti serah lu
+global.author = '                xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐' //Wm author
 
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
-global.thumb = 'https://telegra.ph/file/c4cfed0039e12dc8f4dd5.jpg' //Thumbnail nya
-global.thumb2 = 'https://telegra.ph/file/312d5d7a5ad4d4f8b5d7a.jpg' //Thumbnail 2
-global.thumbbc = 'https://telegra.ph/file/3377bec81cd8614917d24.jpg' //Image Bcgcb
-global.giflogo = 'https://telegra.ph/file/048f99ba552944162b6b9.jpg' //Bebas
+global.thumb = 'https://telegra.ph/file/77b4a850362c8b21e2f19.jpg' //Thumbnail nya
+global.thumb2 = 'https://telegra.ph/file/99ba21696220ccffbf790.jpg' //Thumbnail 2
+global.thumbbc = 'https://telegra.ph/file/0a901e07ff14a97de9c67.jpg' //Image Bcgcb
+global.giflogo = 'https://telegra.ph/file/8ace5460d97b5a575a248.jpg' //Bebas
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 //global.fla Jangan di ganti
 
 /*⫘⫘⫘⫘ LOADING ⫘⫘⫘⫘⫘*/
-global.wait = '```[ ! ] wait...```'
+global.wait = '[ ❗ ] wait...'
 global.eror = '⸨Acsess Denied⸩'
 
 /*⫘⫘⫘⫘ DOCUMENT ⫘⫘⫘⫘⫘*/
@@ -134,7 +134,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/180d276284be5474b0d00.jpg' //Ganti jadi foto Bot
+global.thumbdoc = 'https://telegra.ph/file/2fc4d1d8991dfc3cb6657.jpg' //Ganti jadi foto Bot
 
 /*⫘⫘⫘⫘ FAKE SIZE ⫘⫘⫘⫘⫘*/
 global.fsizedoc = '99999999999999' // 10TB
