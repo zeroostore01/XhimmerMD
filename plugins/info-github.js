@@ -2,7 +2,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `📮 *SC ADA DI GITHUB JNGN LUPA FOLLOW*
 
 Atau Bisa Lewat Link Dibawah Ini :
-https://github.com/RizkiIqbal02
+https://github.com/ShionMDv
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sullivan GITHUB*', 'status@broadcast') 
