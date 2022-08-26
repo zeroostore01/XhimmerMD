@@ -12,8 +12,8 @@ const sections = [
    {
 	title: `✃ LIST MENU`,
 	rows: [
-	    {title: "∫ 🧿» Simpel «", rowId: '.mw', description: '╰► Menu simpel Sullivan BOT' },
-	    {title: "∫ 🌸» List Menu «", rowId: '.?', description: '╰► Menu Keceh Sullivan BOT' },
+	    {title: "∫ 🧿» Simpel «", rowId: '.mw', description: 'Menu simple xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐' },
+	    {title: "∫ 🌸» List Menu «", rowId: '.?', description: '╰► Menu Kece xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐' },
         ]
         }, 
 
@@ -23,7 +23,7 @@ const listMessage = {
   text: ' ',
   footer: info,
   title: null,
-  buttonText: "LIST MENU ☁︎",
+  buttonText: "LIST MENU",
   sections
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
