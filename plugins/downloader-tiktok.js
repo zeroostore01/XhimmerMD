@@ -10,8 +10,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!url) throw 'Can\'t download video!'
     conn.sendHydrated(m.chat, `${htki} ᴛɪᴋᴛᴏᴋ ᴡᴍ ${htka}`, `➔ ɴɪᴄᴋɴᴀᴍᴇ ${nickname}${description ? `\n➔ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ:\n${description}` : ''}`, await (await fetch(url)).buffer(),
         url, '🌎 s ᴏ ᴜ ʀ ᴄ ᴇ', null, null, [
-        ['🌸ᴅᴏɴᴀꜱɪ', `.donasi`],
-        ['🌹ᴀᴜᴅɪᴏ', `.tiktokaudio ${args}`],
+        ['ᴅᴏɴᴀꜱɪ', `.donasi`],
+        ['ᴀᴜᴅɪᴏ', `.tiktokaudio ${args}`],
         [null, null]], m)
 }
 handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>')
