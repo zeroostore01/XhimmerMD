@@ -11,11 +11,11 @@ let text = `〔 Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕
 ╰──────────···───╮
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '🧸 YouTube 🧸', url: 'https://youtube.com/channel/UCbDTyaAiUTWgoR-y-fH7dbw'}},
+    {index: 1, urlButton: {displayText: '❗ YouTube ❗', url: 'gapunya youtube awoakowkaoak'}},
     {index: 2, urlButton: {displayText: '💬 Instagram 💬', url: sig}},
     {index: 3, urlButton: {displayText: '🌎 Official Group 🌎', url: sgc}},
-    {index: 4, quickReplyButton: {displayText: '🥞Menu', id: '.menu'}},
-    {index: 5, quickReplyButton: {displayText: '🌸Owner', id: '.owner'}},
+    {index: 4, quickReplyButton: {displayText: 'Menu', id: '.menu'}},
+    {index: 5, quickReplyButton: {displayText: '🔥Owner', id: '.owner'}},
 ]
 let tm = {
 text: text,
