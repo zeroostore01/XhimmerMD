@@ -4,7 +4,7 @@ let chat = `┏━━⬣ 𝙄𝙉𝙁𝙊
 ┃
 ┃⬡ Mode : Public
 ┃⬡ Jam : -
-┃⬡ Author : Mr. Iqbal
+┃⬡ Author : 𝚅𝙸𝙽𝚉 𝙲𝚈𝚇
 ┃⬡ Feature : 360 *Features*
 ┃⬡ Battery : *Undefined℅*
 ┗⬣
