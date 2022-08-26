@@ -39,7 +39,7 @@ const defaultMenu = {
   header: '❏═┅═━–〈 *〘 %category 〙*\n│',
     body: '┊➥ %cmd %islimit %isPremium',
   footer: '│\n┗━═┅═━––––––๑\n',
-  after: `  ${'✧\n┬ 📮 *Note* :\n│ Tolong jangan dispam ya biar ga delay\n╰━━━━━━━━━━━━━━━━┈─◂'}`,
+  after: `  ${'✧\n┬ 📮 *Note* :\n│ Jangan dispam biar ga delay\n╰━━━━━━━━━━━━━━━━┈─◂'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -147,9 +147,9 @@ ${wish()},
    *👤 ${name}*
 
 
-⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻\n▶︎ ━━━━━━━•─────────\n\nʙᴏᴛ ʙʏ Mr. Iqbal 🐾*`, text.trim(), `${timeimg()}`, [
-      [`⌗ 🐇Sҽɯα Ⴆσƚ ⌗`, `${usedPrefix}sewa`],
-      [`ུ۪۪.;:୭̥.❁۪ 🎐Aυƚԋσɾ Ⴆσƚ  ❁ུ۪۪.;:୭̥.`, `${usedPrefix}nameown`]
+⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻\n▶︎ ━━━━━━━•─────────\n\nʙᴏᴛ ʙʏ Vinz 🐾*`, text.trim(), `${timeimg()}`, [
+      [`🐇Sewa Bot`, `${usedPrefix}sewa`],
+      [`۪۪🎐Author Bot`, `${usedPrefix}nameown`]
     ], m, {asLocation: true})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
