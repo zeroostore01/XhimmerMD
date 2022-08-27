@@ -99,7 +99,7 @@ http://bīt.ly/ᯤ
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/9c96f5d93710ebd4501a7.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/c2bf0699ee85c2b9b65f6.jpg')).buffer(),
 'sourceUrl':'https://youtube.com/channel/UCbDTyaAiUTWgoR-y-fH7dbw'}},
 'caption':cap,
 'footer':botdate,
