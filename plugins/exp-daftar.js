@@ -17,40 +17,40 @@ let handler = async function (m, { text, usedPrefix, command }) {
     {
 	title: "O L D",
 	rows: [
-	    {title: "30• Years ʚĭɞ", rowId: '.daftar ' + namae + '.30 '},
-	    {title: "29• Years ʚĭɞ", rowId: '.daftar ' + namae + '.29 '},
-	    {title: "28• Years ʚĭɞ", rowId: '.daftar ' + namae + '.28 '},
-	{title: "27• Years ʚĭɞ", rowId: '.daftar ' + namae + '.27 '},
-	{title: "26• Years ʚĭɞ", rowId: '.daftar ' + namae + '.26 '},
-	{title: "25• Years ʚĭɞ", rowId: '.daftar ' + namae + '.25 '},
-	{title: "24• Years ʚĭɞ", rowId: '.daftar ' + namae + '.24 '},
-	{title: "23• Years ʚĭɞ", rowId: '.daftar ' + namae + '.23 '},
-	{title: "22• Years ʚĭɞ", rowId: '.daftar ' + namae + '.22 '},
-	{title: "21• Years ʚĭɞ", rowId: '.daftar ' + namae + '.21 '}
+	    {title: "30• Years", rowId: '.daftar ' + namae + '.30 '},
+	    {title: "29• Years", rowId: '.daftar ' + namae + '.29 '},
+	    {title: "28• Years", rowId: '.daftar ' + namae + '.28 '},
+	{title: "27• Years", rowId: '.daftar ' + namae + '.27 '},
+	{title: "26• Years", rowId: '.daftar ' + namae + '.26 '},
+	{title: "25• Years", rowId: '.daftar ' + namae + '.25 '},
+	{title: "24• Years", rowId: '.daftar ' + namae + '.24 '},
+	{title: "23• Years", rowId: '.daftar ' + namae + '.23 '},
+	{title: "22• Years", rowId: '.daftar ' + namae + '.22 '},
+	{title: "21• Years", rowId: '.daftar ' + namae + '.21 '}
 	]
     },
     {
 	title: "Y O U N G",
 	rows: [
-	    {title: "20• Years ʚĭɞ", rowId: '.daftar ' + namae + '.20 '},
-	    {title: "19• Years ʚĭɞ", rowId: '.daftar ' + namae + '.19 '},
-	    {title: "18• Years ʚĭɞ", rowId: '.daftar ' + namae + '.18 '},
-	{title: "17• Years ʚĭɞ", rowId: '.daftar ' + namae + '.17 '},
-	{title: "16• Years ʚĭɞ", rowId: '.daftar ' + namae + '.16 '},
-	{title: "15• Years ʚĭɞ", rowId: '.daftar ' + namae + '.15 '},
-	{title: "14• Years ʚĭɞ", rowId: '.daftar ' + namae + '.14 '},
-	{title: "13• Years ʚĭɞ", rowId: '.daftar ' + namae + '.13 '},
-	{title: "12• Years ʚĭɞ", rowId: '.daftar ' + namae + '.12 '},
-	{title: "11• Years ʚĭɞ", rowId: '.daftar ' + namae + '.11 '},
-	{title: "10• Years ʚĭɞ", rowId: '.daftar ' + namae + '.10 '},
-	{title: "9• Years ʚĭɞ", rowId: '.daftar ' + namae + '.9 '}
+	    {title: "20• Years", rowId: '.daftar ' + namae + '.20 '},
+	    {title: "19• Years", rowId: '.daftar ' + namae + '.19 '},
+	    {title: "18• Years", rowId: '.daftar ' + namae + '.18 '},
+	{title: "17• Years", rowId: '.daftar ' + namae + '.17 '},
+	{title: "16• Years", rowId: '.daftar ' + namae + '.16 '},
+	{title: "15• Years", rowId: '.daftar ' + namae + '.15 '},
+	{title: "14• Years", rowId: '.daftar ' + namae + '.14 '},
+	{title: "13• Years", rowId: '.daftar ' + namae + '.13 '},
+	{title: "12• Years", rowId: '.daftar ' + namae + '.12 '},
+	{title: "11• Years", rowId: '.daftar ' + namae + '.11 '},
+	{title: "10• Years", rowId: '.daftar ' + namae + '.10 '},
+	{title: "9• Years", rowId: '.daftar ' + namae + '.9 '}
 	]
     },
 ]
 
 const listMessage = {
   text: `│›Please select your age at the bottom button...`,
-  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\nBy Iqbal Tamvan`,
+  footer: `┗ *ʏᴏᴜʀ ɴᴀᴍᴇ:* ${conn.getName(m.sender)}\n<❔>  BOT PRIVATE\nBy Vinz Cyx`,
   title: "▢━━━━「 Registration 」━━━━▢",
   buttonText: "Register",
   sections
@@ -82,7 +82,7 @@ const listMessage = {
 ╰═┅═━––––––๑
 
 http://bīt.ly/ᯤ
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: SullivanMD
+Jemb0t Kobong🔥
 `
   let buttonMessage= {
 'document':{'url':'https://youtube.com/channel/UCbDTyaAiUTWgoR-y-fH7dbw'},
