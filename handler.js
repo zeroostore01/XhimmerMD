@@ -959,14 +959,14 @@ export async function participantsUpdate({ id, participants, action }) {
                         let wel = API('hardianto', '/api/welcome3', {
                                 profile: pp,
                                 name: await this.getName(user),
-                                bg: 'https://telegra.ph/file/99967eef4c9dd9c0cc911.png',
+                                bg: 'https://telegra.ph/file/56f57eb054e6ca580c502.jpg',
                                 namegb: await this.getName(id),
                                 member: groupMetadata.participants.length
                             })
                             let lea = API('hardianto', '/api/goodbye3', {
                                 profile: pp,
                                 name: await this.getName(user),
-                                bg: 'https://telegra.ph/file/99967eef4c9dd9c0cc911.png',
+                                bg: 'https://telegra.ph/file/56f57eb054e6ca580c502.jpg',
                                 namegb: await this.getName(id),
                                 member: groupMetadata.participants.length
                             })
@@ -1035,13 +1035,13 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Hai, 👋\nHanya Untuk Mr Iqbal Tercinta><!!',
-        owner: 'Hai, 👋\nHanya Untuk Mr Iqbal Tercinta><!!',
-        mods: 'Hai, 👋\nHanya Untuk Mr Iqbal Tercinta><!!',
+        rowner: 'Hai, 👋\nHanya Untuk Vinz Lu Gausah Ikut Campur!!',
+        owner: 'Hai, 👋\nHanya Untuk Vinz Lu Gausah Ikut Campur!!',
+        mods: 'Hai, 👋\nHanya Untuk Vinz Lu Gausah Ikut Campur!!',
         premium: 'Hai, 👋\nFitur Ini hanya khusus user Premium!!',
         group: 'Hai, 👋\nFitur Ini hanya bisa dipakai didalam group!!',
         private: 'Hai, 👋\nFitur Ini hanya bisa dipakai dichat pribadi!!',
-        admin: 'Hai, 👋\nFitur Ini hanya khusus admin group!!',
+        admin: 'Hai, 👋\nNgemis Jadi Admin Dulu Ngab!!',
         botAdmin: 'Hai, 👋\nJadikan bot admin dulu untuk memakai fitur ini!!',
         restrict: '*Hai, 👋\nRestrict Belum nyala!',
     }[type]
