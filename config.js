@@ -104,7 +104,7 @@ global.APIKeys = { // APIKey Here
 
 /*⫘⫘⫘⫘ WATERMAK ⫘⫘⫘⫘⫘*/
 //GANTI JANGAN NGASAL.
-global.wm = '                「 ≪•◦𝚅𝙸𝙽𝚉 ❈ 𝙲𝚈𝚇◦•≫ 」' //Wm
+global.wm = '                「 ≪•◦𝒁 𝑬 𝑹 𝑶 𝑴𝑫◦•≫ 」' //Wm
 global.wm2 = '┏━°⌜ 𝒁 𝑬 𝑹 𝑶 ⌟°━┓' //Name Wm
 global.wm3 = '⫹⫺ 𝒁 𝑬 𝑹 𝑶 𝘽𝙊𝙏'
 global.botdate = `🗓️️ 𝗗𝗮𝘁𝗲: ${week} ${date}`
