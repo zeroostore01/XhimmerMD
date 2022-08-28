@@ -31,7 +31,7 @@ let teksbio = `${htki} *BIODATA* ${htka}
 *🧩 Hobby* : Lebih Baik Lu Gatau
 *💬 Sifat* : Intinya Bukan Orang Yang Baik
 *🗺️ Tinggal* : Indonesia, JawaTengah, Demak
-*❤️ Suka* : warnah pink, loli imoet🥺, waifu wangy, kucing, ayank aca😅
+*❤️ Suka* : warnah pink, loli imoet, waifu wangy,
 *💔 Benci* : Orang Yang Membenciku 
 
 *- - sᴋɪʟʟs: - -* 
