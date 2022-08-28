@@ -29,33 +29,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Kalau gapunya di biarin aja!, atau ga di kasih tanda '-'
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://www.instagram.com/_alv.stn' //Instagram mu
-global.sgh = 'https://github.com/ShionMDv' //Github mu
-global.sgc = 'https://chat.whatsapp.com/KA5pIYwNaAo4gfyWsWFEny' //Group WhatsApp mu
+global.sig = 'g ad' //Instagram mu
+global.sgh = 'https://github.com/Zeroo' //Github mu
+global.sgc = 'https://chat.whatsapp.com/Fyqq9PEd7HALAq6uCylnrC' //Group WhatsApp mu
 global.sdc = '----' //Discord Mu
 global.snh = 'https://nhentai.net/g/365296/' //Make ini ana gausah di ganti.
 
 /*⫘⫘⫘⫘ALL PAYMENT⫘⫘⫘⫘⫘*/
-global.pdana = '087734910547' //Dana
+global.pdana = '085784914140' //Dana
 global.povo = '----' //Ovo
-global.pgopay = '----' //Gopay
-global.ppulsa = '087734910547' //Pulsa 
-global.ppulsa2 = '085848453523' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
-global.psaweria = 'Unavailable' //Saweria
+global.pgopay = '083890585717' //Gopay
+global.ppulsa = '083890585717' //Pulsa 
+global.ppulsa2 = '083830815715' //Pulsa, Kalau nomor cuma 1, yg ini kasih tanda -
+global.psaweria = 'https://tinyurl.com/2el4odke' //Saweria
 
 /*⫘⫘⫘⫘ GLOBAL NOMOR ⫘⫘⫘⫘⫘*/
-global.nomorbot = '6285602806360' //Nomor Bot mu
-global.nomorown = '6287734910547' //Nomormu
-global.namebot = 'xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐' //Nama bot mu
-global.nameown = '𝚅𝙸𝙽𝚉 𝙲𝚈𝚇' //Nama mu
+global.nomorbot = '84814530554' //Nomor Bot mu
+global.nomorown = '6283890585717' //Nomormu
+global.namebot = '𝒁 𝑬 𝑹 𝑶 𝑴𝑫' //Nama bot mu
+global.nameown = '𝒁 𝑬 𝑹 𝑶' //Nama mu
 
 
 /*⫘⫘⫘⫘ STAFF ⫘⫘⫘⫘⫘*/
 global.owner = [
-  ['6287734910547'], //Owner1
-  ['6285848453523'], //Owner2
-  ['6287734910547'], //Owner3
-  ['6287734910547', '𝚅𝙸𝙽𝚉 𝙲𝚈𝚇 ! 🔥', true] //Ini buat kamu!
+  ['6283890585717'], //Owner1
+  ['6283830815715'], //Owner2
+  ['6283890585717'], //Owner3
+  ['6283830815715', '𝒁 𝑬 𝑹 𝑶', true] //Ini buat kamu!
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -105,20 +105,20 @@ global.APIKeys = { // APIKey Here
 /*⫘⫘⫘⫘ WATERMAK ⫘⫘⫘⫘⫘*/
 //GANTI JANGAN NGASAL.
 global.wm = '                「 ≪•◦𝚅𝙸𝙽𝚉 ❈ 𝙲𝚈𝚇◦•≫ 」' //Wm
-global.wm2 = '┏━°⌜ 𝚅𝙸𝙽𝚉 𝙲𝚈𝚇 ⌟°━┓' //Name Wm
-global.wm3 = '⫹⫺ 𝙓𝙃𝙄𝙈𝙈𝙀𝙍 𝘽𝙊𝙏'
+global.wm2 = '┏━°⌜ 𝒁 𝑬 𝑹 𝑶 ⌟°━┓' //Name Wm
+global.wm3 = '⫹⫺ 𝒁 𝑬 𝑹 𝑶 𝘽𝙊𝙏'
 global.botdate = `🗓️️ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = 'IG:@_alv.stn' //Ganti serah lu
-global.author = '                xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐' //Wm author
+global.titlebot = '𝑴𝑫' //Ganti serah lu
+global.author = '                𝒁 𝑬 𝑹 𝑶' //Wm author
 
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
-global.thumb = 'https://telegra.ph/file/77b4a850362c8b21e2f19.jpg' //Thumbnail nya
-global.thumb2 = 'https://telegra.ph/file/99ba21696220ccffbf790.jpg' //Thumbnail 2
-global.thumbbc = 'https://telegra.ph/file/0a901e07ff14a97de9c67.jpg' //Image Bcgcb
-global.giflogo = 'https://telegra.ph/file/8ace5460d97b5a575a248.jpg' //Bebas
+global.thumb = 'https://telegra.ph/file/49b76f00384e30b04fb04.jpg' //Thumbnail nya
+global.thumb2 = 'https://telegra.ph/file/3ebdc6db08a75352b82fd.jpg' //Thumbnail 2
+global.thumbbc = 'https://telegra.ph/file/49b76f00384e30b04fb04.jpg' //Image Bcgcb
+global.giflogo = 'https://telegra.ph/file/3ebdc6db08a75352b82fd.jpg' //Bebas
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 //global.fla Jangan di ganti
@@ -134,7 +134,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/2fc4d1d8991dfc3cb6657.jpg' //Ganti jadi foto Bot
+global.thumbdoc = 'https://telegra.ph/file/3ebdc6db08a75352b82fd.jpg' //Ganti jadi foto Bot
 
 /*⫘⫘⫘⫘ FAKE SIZE ⫘⫘⫘⫘⫘*/
 global.fsizedoc = '99999999999999' // 10TB
@@ -145,7 +145,7 @@ global.fpagedoc = '999' //Gausah di ganti.
 global.dmenut = '╭────━•〔' //top
 global.dmenub = '│ ⸙͎۪۫' //body
 global.dmenub2 = '│' //body for info cmd on Default menu
-global.dmenuf = '𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊\n\n◐ Fokus Id\n◐Mr.Iqbal\n◐Ario\n◐Ayank rere🥺\n◐Staff Codding\n◐Allah SWT\n◐Pemakai bot ini\n◐I love you\n\n*The one and only Rizki Iqbal Muladi*' //footer
+global.dmenuf = '𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊\n\n◐ Fokus Id\n◐Mr.Iqbal\n◐Ario\n◐𝒁 𝑬 𝑹 𝑶\n◐Staff Codding\n◐Allah SWT\n◐Pemakai bot ini\n◐I love you\n\n*The one and only Rizki Iqbal Muladi*' //footer
 
 // COMMAND MENU
 global.cmenut = '╭────━•〔' //top
@@ -164,8 +164,8 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 
 /*⫘⫘⫘⫘ STICKER ⫘⫘⫘⫘⫘*/
-global.stickpack = '*IG : r_iqbl02*'
-global.stickauth = `© Sullivan BOT\nOfficial by Whatsapp\nNomor: ${global.nomorbot}`
+global.stickpack = '*𝒁 𝑬 𝑹 𝑶*'
+global.stickauth = `© 𝒁 𝑬 𝑹 𝑶\nOfficial by Whatsapp\nNomor: ${global.nomorbot}`
 
 global.multiplier = 38 // The higher, The harder levelup
 
