@@ -12,14 +12,14 @@ const message = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: '🌹IG OWNER',
-                        url: 'https://instagram.com/_alv.stn',
+                        displayText: 'GROUP',
+                        url: 'https://chat.whatsapp.com/Fyqq9PEd7HALAq6uCylnrC',
                     }
                 },
                 {
                     urlButton: {
                         displayText: '📞 Author',
-                        url: 'https://wa.me/6287734910547',
+                        url: 'https://wa.me/6283890585717',
 
                     }
                 },
