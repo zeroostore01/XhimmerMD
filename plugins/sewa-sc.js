@@ -13,14 +13,14 @@ const message = {
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: '🐈 Github',
-                        url: sgh
+                        displayText: '📄 Group',
+                        url: https://chat.whatsapp.com/Fyqq9PEd7HALAq6uCylnrC
                     }
                 },
                 {
                     urlButton: {
                         displayText: 'Save Owner Dong🗿',
-                        url: 'https://wa.me/6287734910547',
+                        url: 'https://wa.me/6283890585717',
                     }
                 },
                 {
@@ -50,7 +50,7 @@ contextInfo: { externalAdReply :{
                         mediaType: 2,
                         description: 'anu',
                         title: bottime,
-                        body: 'BOT BY Vinz',          previewType: 0,
+                        body: '𝒁 𝑬 𝑹 𝑶',          previewType: 0,
                         thumbnail: fs.readFileSync("./thumbnail.jpg"),
                         sourceUrl: sgc
                       }}
