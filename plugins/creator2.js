@@ -21,9 +21,9 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Vinz
-*✉️ Nama BOT* : xʜɪᴍᴍᴇʀ ʙᴏᴛ࿐
-*♂️ Gender* : Laki - laki
+*💌 Nama* : 𝑆𝐻𝐼𝑅𝑂 
+*✉️ Nama BOT* : 𝒁 𝑬 𝑹 𝑶 𝑴𝑫 
+*♂️ Gender* : -
 *🕋 Agama* : Islam
 *⏰ Tanggal lahir* : 15 Maret 2004
 *🎨 Umur* : 18
